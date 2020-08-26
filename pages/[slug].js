@@ -44,7 +44,7 @@ export const getStaticProps = async ({ params: { slug } }) => {
     props: {
       slug,
     },
-    unstable_revalidate: 1,
+    revalidate: 1,
   };
 };
 
